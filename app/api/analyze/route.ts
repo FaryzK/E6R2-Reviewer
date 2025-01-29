@@ -65,6 +65,7 @@ export async function POST(request: NextRequest) {
     // Read case studies
     const caseStudies = await fs.readFile(process.cwd() + '/case-studies.txt', 'utf-8')
 
+    // Create OpenAI completion with streaming
     const completion = await openai.chat.completions.create({
       model: "gpt-4-turbo-preview",
       messages: [
@@ -99,13 +100,40 @@ export async function POST(request: NextRequest) {
         }
       ],
       temperature: 0.7,
-      max_tokens: 4000
+      max_tokens: 4000,
+      stream: true
     })
 
-    return NextResponse.json({ 
-      analysis: completion.choices[0].message.content,
-      textLength: pdfText.length
+    // Use Web Streams API
+    const stream = new ReadableStream({
+      async start(controller) {
+        try {
+          for await (const chunk of completion) {
+            const content = chunk.choices[0]?.delta?.content || ''
+            // Send each character individually
+            if (content) {
+              for (const char of content) {
+                controller.enqueue(`data: ${JSON.stringify({ content: char })}\n\n`)
+              }
+            }
+          }
+          // Send an end marker
+          controller.enqueue(`data: ${JSON.stringify({ done: true })}\n\n`)
+          controller.close()
+        } catch (error) {
+          controller.error(error)
+        }
+      },
     })
+
+    return new Response(stream, {
+      headers: {
+        'Content-Type': 'text/event-stream',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive',
+      },
+    })
+
   } catch (error: any) {
     console.error('Error:', error)
     return NextResponse.json({ 

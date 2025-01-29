@@ -41,6 +41,7 @@ export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps)
 
   const processFile = async (file: File) => {
     setLoading(true)
+    setAnalysis('')
     const formData = new FormData()
     formData.append('file', file)
 
@@ -49,18 +50,52 @@ export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps)
         method: 'POST',
         body: formData,
       })
-      const data = await response.json()
-      
+
       if (!response.ok) {
-        throw new Error(data.error || 'Error processing file')
+        const error = await response.json()
+        throw new Error(error.error || 'Error processing file')
       }
+
+      let analysisText = ''
+      const reader = response.body?.getReader()
       
-      setAnalysis(data.analysis)
+      if (!reader) {
+        throw new Error('No response stream available')
+      }
+
+      // Read the stream
+      while (true) {
+        const { done, value } = await reader.read()
+        
+        if (done) {
+          break
+        }
+        
+        // Convert the chunk to text
+        const text = new TextDecoder().decode(value)
+        const lines = text.split('\n')
+        
+        // Process each line
+        for (const line of lines) {
+          if (line.startsWith('data: ')) {
+            try {
+              const data = JSON.parse(line.slice(5).trim())
+              if (data.content) {
+                analysisText += data.content
+                setAnalysis(analysisText)
+              }
+            } catch (e) {
+              console.error('Error parsing stream:', e)
+            }
+          }
+        }
+      }
     } catch (error: any) {
       console.error('Error processing file:', error)
       setAnalysis(`Error: ${error.message || 'Error processing file. Please try again.'}`)
+    } finally {
+      setLoading(false)
     }
-    setLoading(false)
   }
 
   return (
