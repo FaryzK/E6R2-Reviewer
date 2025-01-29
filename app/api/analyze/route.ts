@@ -20,6 +20,11 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 })
 
+// Add case studies directly in the code
+const CASE_STUDIES = `
+[Your case studies content here]
+`.trim()
+
 export async function POST(request: NextRequest) {
   try {
     const formData = await request.formData()
@@ -62,8 +67,9 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'No text content found in PDF' }, { status: 400 })
     }
 
-    // Read case studies
-    const caseStudies = await fs.readFile(process.cwd() + '/case-studies.txt', 'utf-8')
+    // Fetch case studies from public folder
+    const caseStudiesResponse = await fetch(new URL('/case-studies.txt', request.url))
+    const caseStudies = await caseStudiesResponse.text()
 
     // Create OpenAI completion with streaming
     const completion = await openai.chat.completions.create({

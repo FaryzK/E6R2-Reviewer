@@ -17,7 +17,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl font-bold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500"
         >
-          E6R2 Document Reviewer
+          E6(R2) Document Reviewer
         </motion.h1>
         
         <motion.div 
