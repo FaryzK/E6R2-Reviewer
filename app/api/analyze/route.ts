@@ -67,32 +67,32 @@ export async function POST(request: NextRequest) {
 
     // Create OpenAI completion with streaming
     const completion = await openai.chat.completions.create({
-      model: "gpt-4-turbo-preview",
+      model: "gpt-4o-mini",
       messages: [
         {
           role: "system",
           content: `You are an expert document reviewer specializing in GCP (Good Clinical Practice) inspections and clinical trial documentation. 
           Analyze the provided document and identify gaps based on the case studies. 
-          Structure your response in the following format:
           
-          1. Key Findings:
-          - List major gaps or issues identified
-          - Highlight critical non-compliances
+          Format your response in markdown with the following sections:
           
-          2. Analysis by Domain:
-          - IP Management
-          - Informed Consent
-          - Study Staff & Training
-          - Protocol Compliance
-          - Data Management
-          - Safety Reporting
+          # Key Findings
+          - Use markdown bullet points for gaps and non-compliances
+          
+          # Analysis by Domain
+          ## IP Management
+          ## Informed Consent
+          ## Study Staff & Training
+          ## Protocol Compliance
+          ## Data Management
+          ## Safety Reporting
           (Include only relevant domains)
           
-          3. Recommendations:
-          - Specific, actionable next steps
-          - Priority level for each recommendation
+          # Recommendations
+          - Use markdown bullet points for actionable steps
+          - Include priority levels in **bold**
           
-          Be specific and reference relevant regulations or guidelines where applicable.`
+          Use markdown features like **bold**, *italic*, \`code\`, and > quotes for emphasis.`
         },
         {
           role: "user",

@@ -1,6 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import { ReactNode } from "react"
 
 interface AnalysisProps {
   analysis: string
@@ -18,36 +21,26 @@ export default function Analysis({ analysis, loading }: AnalysisProps) {
 
   if (!analysis && !loading) return null
 
-  const paragraphs = analysis.split('\n')
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       className="bg-gray-700 rounded-lg p-6"
     >
-      <h2 className="text-2xl font-semibold mb-4">Analysis Results</h2>
-      <div className="prose prose-invert">
-        {paragraphs.map((paragraph, index) => {
-          if (!paragraph.trim()) return null
-
-          const isHeading = /^\d+\./.test(paragraph.trim())
-          const isBullet = paragraph.trim().startsWith('-')
-          const isLastParagraph = index === paragraphs.length - 1
-
-          return (
-            <p
-              key={index}
-              className={`mb-4 ${isHeading ? 'text-xl font-semibold text-blue-400' : ''} 
-                ${isBullet ? 'pl-4 border-l-2 border-gray-600' : ''}`}
-            >
-              {paragraph}
-              {isLastParagraph && loading && (
-                <span className="animate-pulse ml-[1px]">▌</span>
-              )}
-            </p>
-          )
-        })}
+      <div className="prose prose-invert max-w-none">
+        <ReactMarkdown 
+          remarkPlugins={[remarkGfm]}
+          components={{
+            code: ({ inline, ...props }: { inline?: boolean; children?: ReactNode }) => (
+              inline 
+                ? <code className="bg-gray-800 px-1 rounded" {...props} />
+                : <pre className="block bg-gray-800 p-2 rounded my-2"><code {...props} /></pre>
+            ),
+          }}
+        >
+          {analysis}
+        </ReactMarkdown>
+        {loading && <span className="animate-pulse ml-[1px]">▌</span>}
       </div>
     </motion.div>
   )
