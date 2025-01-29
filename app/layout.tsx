@@ -5,7 +5,16 @@ export const metadata: Metadata = {
   title: 'E6(R2) Reviewer',
   description: 'Document review and analysis tool',
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+      },
+      {
+        url: '/favicon.png',
+        type: 'image/png',
+      },
+    ],
   },
 }
 

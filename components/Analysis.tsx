@@ -66,6 +66,9 @@ export default function Analysis({ analysis, loading }: AnalysisProps) {
 
   if (!analysis && !loading) return null
 
+  // Append cursor directly to the analysis text
+  const displayText = loading ? `${analysis}▌` : analysis
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -84,9 +87,8 @@ export default function Analysis({ analysis, loading }: AnalysisProps) {
             ),
           }}
         >
-          {analysis}
+          {displayText}
         </ReactMarkdown>
-        {loading && <span className="animate-pulse ml-[1px]">▌</span>}
       </div>
     </motion.div>
   )
