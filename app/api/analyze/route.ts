@@ -121,7 +121,7 @@ export async function POST(request: NextRequest) {
           const timeoutId = setTimeout(() => {
             hasError = true
             controller.error(new Error('Stream timeout'))
-          }, 240000) // 4 minute safety timeout
+          }, 55000) // 55 second timeout to stay within the 60-second limit
 
           for await (const chunk of completion) {
             if (hasError) break
