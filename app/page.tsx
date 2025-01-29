@@ -26,7 +26,11 @@ export default function Home() {
           transition={{ delay: 0.2 }}
           className="bg-gray-800 rounded-lg p-8 shadow-xl"
         >
-          <FileUpload setAnalysis={setAnalysis} setLoading={setLoading} />
+          <FileUpload 
+            setAnalysis={setAnalysis} 
+            setLoading={setLoading} 
+            isProcessing={loading}
+          />
           <Analysis analysis={analysis} loading={loading} />
         </motion.div>
       </div>

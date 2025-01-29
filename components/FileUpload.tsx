@@ -6,12 +6,14 @@ import { motion } from 'framer-motion'
 interface FileUploadProps {
   setAnalysis: (analysis: string) => void
   setLoading: (loading: boolean) => void
+  isProcessing: boolean  // New prop to handle disabled state
 }
 
-export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps) {
+export default function FileUpload({ setAnalysis, setLoading, isProcessing }: FileUploadProps) {
   const [dragActive, setDragActive] = useState(false)
 
   const handleDrag = (e: React.DragEvent) => {
+    if (isProcessing) return
     e.preventDefault()
     e.stopPropagation()
     if (e.type === "dragenter" || e.type === "dragover") {
@@ -22,6 +24,7 @@ export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps)
   }
 
   const handleDrop = async (e: React.DragEvent) => {
+    if (isProcessing) return
     e.preventDefault()
     e.stopPropagation()
     setDragActive(false)
@@ -33,6 +36,7 @@ export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps)
   }
 
   const handleChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (isProcessing) return
     const file = e.target.files?.[0]
     if (file) {
       await processFile(file)
@@ -41,7 +45,7 @@ export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps)
 
   const processFile = async (file: File) => {
     setLoading(true)
-    setAnalysis('')
+    setAnalysis('')  // Clear previous analysis
     const formData = new FormData()
     formData.append('file', file)
 
@@ -101,14 +105,16 @@ export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps)
   return (
     <div className="mb-8">
       <motion.div
-        className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer
-          ${dragActive ? 'border-blue-500 bg-blue-500/10' : 'border-gray-600 hover:border-gray-500'}`}
+        className={`border-2 border-dashed rounded-lg p-8 text-center 
+          ${dragActive ? 'border-blue-500 bg-blue-500/10' : 'border-gray-600 hover:border-gray-500'}
+          ${isProcessing ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'}
+          transition-opacity duration-200`}
         onDragEnter={handleDrag}
         onDragLeave={handleDrag}
         onDragOver={handleDrag}
         onDrop={handleDrop}
-        whileHover={{ scale: 1.01 }}
-        whileTap={{ scale: 0.99 }}
+        whileHover={{ scale: isProcessing ? 1 : 1.01 }}
+        whileTap={{ scale: isProcessing ? 1 : 0.99 }}
       >
         <input
           type="file"
@@ -116,11 +122,15 @@ export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps)
           onChange={handleChange}
           className="hidden"
           id="file-upload"
+          disabled={isProcessing}
         />
-        <label htmlFor="file-upload" className="cursor-pointer">
+        <label 
+          htmlFor="file-upload" 
+          className={isProcessing ? 'cursor-not-allowed' : 'cursor-pointer'}
+        >
           <div className="flex flex-col items-center">
             <svg
-              className="w-12 h-12 mb-4 text-gray-400"
+              className={`w-12 h-12 mb-4 ${isProcessing ? 'text-gray-500' : 'text-gray-400'}`}
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -132,8 +142,12 @@ export default function FileUpload({ setAnalysis, setLoading }: FileUploadProps)
                 d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"
               />
             </svg>
-            <p className="text-lg mb-2">Drag and drop your PDF here</p>
-            <p className="text-sm text-gray-400">or click to select a file</p>
+            <p className="text-lg mb-2">
+              {isProcessing ? 'Processing...' : 'Drag and drop your PDF here'}
+            </p>
+            <p className="text-sm text-gray-400">
+              {isProcessing ? 'Please wait' : 'or click to select a file'}
+            </p>
           </div>
         </label>
       </motion.div>

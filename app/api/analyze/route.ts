@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
           
           # Recommendations
           - Use markdown bullet points for actionable steps
-          - Include priority levels in **bold**
+          - Include priority levels in bold
           
           Use markdown features like **bold**, *italic*, \`code\`, and > quotes for emphasis.`
         },
