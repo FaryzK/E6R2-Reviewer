@@ -1,0 +1,1331 @@
+Summary:
+The information below contains the GCP inspections carried out from 2009-2023. They include gaps and findings from these inspections, and the appropriate next steps
+HOW TO USE THIS FORMAT 
+1. Review Each Domain
+   * Investigational Product Management, Trial Participant Recruitment, Study Staff, Protocol Compliance, Data Collection & Handling, Safety Reporting, Quality Management System, Monitoring, etc.
+2. Identify Gaps
+   * Note any missing elements, non-compliances, or procedural weaknesses.
+   * Classify them by severity (Critical, Major, Other) if required.
+3. Assign Corrective Actions
+   * Use the “Actionable Next Steps” to guide resolutions.
+   * Determine responsible parties and deadlines for each action.
+4. Track and Close Findings
+   * Document all observations, corrective measures, and follow-up results.
+   * Confirm each item is resolved to maintain a compliant, high-quality clinical trial.
+________________
+
+
+GCP SITE INSPECTIONS (2023)
+1) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* Manufacturing & GMP Compliance
+   * Are there established processes for environmental monitoring deviations during sterile manufacturing?
+   * Is there a quality system controlling starting materials?
+   * Is there a mechanism to ensure timely product release test results from third-party labs?
+* Site IP Handling
+   * Are IP storage conditions appropriately monitored and documented?
+   * Do IP accountability logs reflect accurate dispensing and returns?
+Common Gaps/Findings (2023):
+* Not manufactured under GMP: Potentially compromises IP quality and participant safety.
+* No clear process for handling environmental monitoring deviations.
+* Starting materials not controlled or tested per SOP.
+* Delays in obtaining release test results from third-party labs.
+Actionable Next Steps:
+* Implement written SOPs to handle environmental monitoring deviations and starting material oversight.
+* Establish contractual timelines with external labs to guarantee prompt product release test results.
+* Ensure site-level staff follow local SOPs for IP receipt, storage, and dispensing accountability.
+________________
+
+
+2) TRIAL PARTICIPANT RECRUITMENT
+What to Check:
+* Eligibility Confirmation
+   * Are participants formally assessed for eligibility before any trial-related procedures?
+* Informed Consent Timing
+   * Is informed consent obtained before enrollment?
+Common Gaps/Findings (2023):
+* Trial procedures (e.g., safety assessments) conducted before official enrollment.
+Actionable Next Steps:
+* Clarify the sequence of consent → screening → eligibility assessment → enrollment → trial procedures.
+* Reinforce training on the timing of participant enrollment to ensure no pre-enrollment procedures occur.
+________________
+
+
+3) STUDY STAFF
+What to Check:
+* PI Supervision & Changeover
+   * Is there a documented process for appointing a new PI before the current PI leaves?
+   * Are staff informed promptly of protocol amendments?
+* Delegation & Training
+   * Does each staff member performing significant trial tasks have documented qualifications and training logs?
+Common Gaps/Findings (2023):
+* No new PI appointed prior to the old PI’s departure.
+* Study staff not trained or delegated to perform critical tasks (e.g., consent, eligibility, IP management).
+* Lack of communication about protocol amendments.
+Actionable Next Steps:
+* Notify IRB/HSA of PI changes and update essential documents (e.g., delegation logs, informed consent forms).
+* Maintain up-to-date delegation logs and training records.
+* Provide ongoing communication/training for staff when amendments occur.
+________________
+
+
+4) PROTOCOL COMPLIANCE
+What to Check:
+* Adherence to Key Protocol Elements (inclusion/exclusion, treatment procedures, safety monitoring)
+* Protocol Waivers
+   * Are there unauthorized waivers that compromise participant safety or data integrity?
+Common Gaps/Findings (2023):
+* Serious non-compliances impacting participant safety and data credibility.
+* Protocol waivers granted without sponsor discouragement or robust justification.
+Actionable Next Steps:
+* Comply strictly with the protocol; document any deviations and assess their impact.
+* Integrate Quality By Design by identifying critical-to-quality factors (e.g., randomization, masking, IP handling).
+* Discourage and thoroughly document any requested protocol waivers.
+________________
+
+
+5) DATA COLLECTION AND HANDLING (SITE PERSPECTIVE)
+What to Check:
+* Attributability & Accuracy
+   * Are source documents signed/dated by the appropriate investigator or staff?
+* Timeliness of Documentation
+   * Are safety and eligibility assessments documented contemporaneously?
+* Audit Trail
+   * Do electronic systems capture who changed data, when, and why?
+Common Gaps/Findings (2023):
+* Delays in documenting investigator review of eligibility/safety data.
+* No proper audit trail in electronic forms (risking data integrity).
+Actionable Next Steps:
+* Ensure all source documents are attributable (signed/dated) and accurate (ALCOA+).
+* Require an audit trail for any electronic system capturing trial data.
+* Train staff on contemporaneous documentation of safety events and eligibility confirmations.
+________________
+
+
+6) SAFETY REPORTING (SITE PERSPECTIVE)
+What to Check:
+* AE Documentation
+   * Are AE tracking logs filled out completely, with clear attribution (who entered data and when)?
+* Unexpected Serious Adverse Drug Reaction (USADR) Reporting
+   * Does the PI promptly decide if events need reporting to the IRB?
+Common Gaps/Findings (2023):
+* Delays in determining/reporting USADRs to the IRB.
+* Incomplete or non-attributable AE log entries.
+Actionable Next Steps:
+* Require prompt PI review for all potential USADRs.
+* Maintain clearly attributable, signed, and dated AE logs.
+________________
+
+
+SPONSOR INSPECTIONS (2023)
+7) QUALITY MANAGEMENT SYSTEM
+What to Check:
+* Sponsor Oversight & SOPs
+   * Are sponsor responsibilities defined for investigator-initiated trials (IITs)?
+   * Does the sponsor have SOPs for serious breach assessments, staff training, and monitoring?
+* Training & Staff Awareness
+   * Are sponsor staff trained on GCP, local regulations, and sponsor SOPs?
+Common Gaps/Findings (2023):
+* Inadequate QMS leading to poor oversight (PI change not noticed, no serious breach assessment).
+* Lack of SOPs/training documentation.
+Actionable Next Steps:
+* Build a Quality Management System with SOPs covering protocol deviations, staff training, breach assessment, etc.
+* For IITs, ensure the institution is aware of its sponsor duties (e.g., budgeting, monitoring, CAPA).
+* Document staff training and maintain an escalation process for non-compliance.
+________________
+
+
+8) MONITORING
+What to Check:
+* Monitor Qualifications
+   * Does the monitor have sufficient experience/training for the complexity of the trial?
+* Monitoring Plan Execution
+   * Are deviations escalated quickly?
+   * Are required monitoring visits happening per plan (on-site or remote)?
+Common Gaps/Findings (2023):
+* Inadequate monitor qualifications.
+* Lack of timely corrective actions on major deviations.
+Actionable Next Steps:
+* Verify each monitor’s CV, GCP training, and relevant therapeutic expertise.
+* Follow the Monitoring Plan strictly and escalate major deviations to the sponsor/PI immediately.
+________________
+
+
+9) DATA COLLECTION AND HANDLING (SPONSOR PERSPECTIVE)
+What to Check:
+* ePRO & Risk Management
+   * Does the sponsor include ePRO functionality and limitations in the risk assessment?
+* Back-up Options
+   * If participants can’t use the ePRO, is there a validated paper backup?
+   * Are any transcriptions from paper to ePRO verified?
+Common Gaps/Findings (2023):
+* PI had no access to the ePRO platform.
+* No translated ePRO versions (requiring ad-hoc translators).
+* Paper backups used, but not reconciled with ePRO data.
+Actionable Next Steps:
+* Provide the PI direct access to ePRO systems.
+* Consider validated translations where participants are non-English speakers.
+* Update the Monitoring Plan to ensure data transcription from paper to ePRO is verified for accuracy.
+________________
+
+
+DIRECT ACCESS TO SOURCE DOCUMENTS
+Key Point:
+* The site and sponsor must secure direct access to source data for monitors, auditors, and inspectors. Over-the-shoulder or print-only access may prevent full verification and compromise data acceptance globally.
+Actionable Next Steps:
+* Address this in Clinical Trial Agreements.
+* Engage with institutional IT/EMR stakeholders to find secure ways to allow direct access for regulatory reviews.
+________________
+
+
+   * END OF 2023 TEXT.
+________________
+
+
+GCP SITE INSPECTIONS (2022)
+1) STUDY STAFF
+What to Check:
+* Qualifications & Delegation
+   * Do staff have documented GCP, SOP, and protocol-specific training?
+   * Is there a signature sheet/delegation log to define roles for significant tasks?
+Common Gaps/Findings (2022):
+* Staff performing trial-related activities without adequate training or delegation.
+* Missing or incomplete training logs and delegation logs.
+Actionable Next Steps:
+* Require staff to complete GCP, SOP, and study-specific training; keep training records on file.
+* Maintain a current delegation log, signed and dated by the PI, detailing each staff member’s responsibilities.
+________________
+
+
+2) INFORMED CONSENT
+What to Check:
+* Process for Adults Lacking Capacity
+   * Is there a clear procedure to assess mental capacity (by PI and an independent MD) before obtaining surrogate consent?
+   * Are only qualified, delegated investigators seeking consent from legal representatives?
+Common Gaps/Findings (2022):
+* Inadequate consent procedures for participants who lack capacity.
+* Investigators not formally delegated to assess mental capacity.
+Actionable Next Steps:
+* Create an SOP for consenting adults with diminished capacity, clarifying who can assess capacity.
+* Train investigators on the legal and regulatory requirements for surrogate consent.
+________________
+
+
+3) MONITORING (SITE PERSPECTIVE)
+What to Check:
+* Monitoring Plan & Sponsor Oversight
+   * Does the sponsor tailor a monitoring plan to the trial’s risks?
+   * Are monitors independent from the site team and qualified (CV, GCP training)?
+Common Gaps/Findings (2022):
+* Sponsor-appointed site staff to monitor their own trial.
+* Missing monitoring reports or no evidence of systematic, risk-based monitoring.
+Actionable Next Steps:
+* Require a documented Monitoring Plan that aligns with participant safety and data integrity risks.
+* Assign an independent, qualified monitor who files visit reports detailing findings, deviations, and corrective actions.
+________________
+
+
+4) ESSENTIAL DOCUMENTS
+What to Check:
+* Section 8 of ICH E6(R2)
+   * Are all required essential documents (protocol, delegation logs, monitoring reports, safety documentation) present and up to date?
+   * Is there a document control system (version numbers/dates) and an audit trail?
+Common Gaps/Findings (2022):
+* Missing essential documents (e.g., outdated protocol versions, absent IRB approvals).
+* No systematic approach (ALCOA+ principles) to maintain, version-control, or track changes.
+Actionable Next Steps:
+* Use a master checklist referencing ICH E6(R2) Section 8 for all essential documents.
+* Adopt formal document control (version numbers, effective dates) and ensure records meet ALCOA+ criteria (attributable, legible, contemporaneous, original, accurate).
+________________
+
+
+5) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* Blinded vs. Unblinded Roles
+   * In double-blind studies, are IP management tasks clearly assigned to unblinded staff only, with safeguards in place if the blinded team must handle IP?
+* IP Supply & GMP Compliance
+   * Is IP supply adequate at the trial site?
+   * If repackaging is done, does it meet GMP requirements (line clearance, label reconciliation, SOPs)?
+Common Gaps/Findings (2022):
+* Unclear delineation between blinded and unblinded study teams, risking accidental unblinding.
+* IP repackaging not compliant with GMP (no SOP, no witness, no documentation).
+* Labels not meeting local regulatory labeling requirements.
+Actionable Next Steps:
+* Clearly define “blinded” vs. “unblinded” responsibilities in your SOPs.
+* Follow GMP principles for repackaging (line clearance, label reconciliation, trained staff).
+* Ensure IP supply is managed properly (e.g., using IRT) and documented at each site.
+________________
+
+
+SPONSOR INSPECTIONS (2022)
+6) SAFETY REPORTING
+What to Check:
+* Serious Adverse Events (SAEs) & Expedited Safety Reports (ESRs)
+   * Is unblinded treatment assignment correctly logged in the Safety Database?
+   * Do sponsor staff comply with safety reporting SOPs?
+Common Gaps/Findings (2022):
+* Incorrect unblinded assignment, causing over-/under-reporting of ESRs.
+* Sponsor staff unaware of or noncompliant with their own safety SOPs.
+* Inaccurate or incomplete safety info reported to IRB/HSA.
+Actionable Next Steps:
+* Use second-person verification for critical data (e.g., treatment assignment) to prevent reporting errors.
+* Perform systematic reviews of safety data for trends or outliers.
+* Remind investigators to review and document medical reports thoroughly before submission.
+________________
+
+
+7) QUALITY MANAGEMENT (ESPECIALLY FOR IITs)
+What to Check:
+* Quality Assurance & Quality Control
+   * Are SOPs in place for trial monitoring, SAEs, non-compliance, serious breach notification, etc.?
+   * Do sponsor staff maintain training logs?
+* Risk-Based Quality Management
+   * Is there a documented risk assessment for each IIT?
+   * Are risk-based controls (monitoring, auditing) implemented?
+Common Gaps/Findings (2022):
+* Inadequate QA/QC systems; missing SOPs for sponsor oversight tasks.
+* No documented review of non-compliances and SAEs.
+* Lack of risk assessment for each clinical trial application.
+Actionable Next Steps:
+* Create or update SOPs covering the entire trial lifecycle (start-up, conduct, close-out), including monitoring, CAPA, and serious breach assessments.
+* Maintain training records for sponsor personnel.
+* Use a proportionate, risk-based approach: identify critical trial risks and focus oversight accordingly.
+________________
+
+
+8) MONITORING (SPONSOR PERSPECTIVE)
+What to Check:
+* Monitoring IITs
+   * Are all investigator-initiated trials monitored in some capacity?
+   * Does the institution have a process to review or approve Monitoring Plans and Visit Reports?
+Common Gaps/Findings (2022):
+* Some IITs not monitored at all.
+* Monitoring Plans/Reports not reviewed by the institution.
+Actionable Next Steps:
+* Develop a Monitoring Plan for every IIT, whether onsite or remote.
+* Establish a formal system to review and document sponsor oversight (e.g., sign-off on Monitoring Visit Reports).
+________________
+
+
+END OF 2022 TEXT.
+
+
+GCP INSPECTIONS (2020–2021)
+* Context:
+   * In 2020, only 1 GCP Site Inspection was conducted (January).
+   * In 2021, 4 remote Sponsor Inspections took place.
+   * No clinical trials were suspended or terminated as a result of these inspections.
+1) QUALITY MANAGEMENT (SPONSOR)
+What to Check:
+* Quality Risk Management
+   * Does the sponsor have a documented process to identify and manage critical data/processes that could affect participant safety or data credibility?
+* Approval of Manuals & Documents
+   * Are study manuals and similar documents clearly approved and version-controlled?
+Common Gaps/Findings (2020–2021):
+* Lack of adequate quality risk management, making it unclear which processes might jeopardize safety or data quality.
+* No clear documentation of who approved certain study manuals.
+Actionable Next Steps:
+* Perform a formal risk assessment to identify “critical to quality” factors and implement risk controls.
+* Require sign-off logs or version-control systems to document approvals of all study manuals.
+________________
+
+
+2) OUTSOURCED SERVICES
+What to Check:
+* Letter of Authorization (LOA)
+   * Does the LOA accurately define the trial-related duties and functions delegated to the local sponsor?
+   * Do contracts reflect the roles and responsibilities spelled out in the LOA?
+* Audit Trail for Signatory Dates
+   * Are the agreement signatory dates captured through a valid audit trail (electronic or otherwise)?
+Common Gaps/Findings (2020–2021):
+* LOA did not clearly outline the scope of responsibilities transferred to the local sponsor (discrepancy with actual contractual obligations).
+* Signatory dates on vendor agreements were manually stamped or typed, with no audit trail to confirm authenticity.
+Actionable Next Steps:
+* Align LOA text with contractual agreements, ensuring all delegated tasks are explicitly stated.
+* Implement an e-signature or tracked-signature system that captures signatory name, date, and time with an immutable audit trail.
+________________
+
+
+3) IRB SUBMISSIONS
+What to Check:
+* Recruitment Plan Approvals
+   * Does the sponsor provide the IRB with a detailed recruitment strategy prior to implementation?
+Common Gaps/Findings (2020–2021):
+* Recruitment plans not always submitted to IRB for review.
+Actionable Next Steps:
+* Incorporate recruitment plans into IRB submission packets; obtain IRB approval before initiating participant recruitment.
+________________
+
+
+4) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* Written Instructions & Delegation
+   * Do sites have sponsor-provided written instructions for IP handling (receipt, storage, dispensing, return)?
+   * Are staff properly delegated and trained for IP management (documented in signature logs)?
+* Product Defect & Labelling
+   * Are product defects reported to HSA promptly?
+   * Does IP labeling meet all local regulatory requirements?
+Common Gaps/Findings (2020–2021):
+* No written SOP for IP handling at trial sites.
+* Missing delegation for staff who handle IP.
+* Product defect went unreported to HSA.
+* IP label not compliant with regulatory labeling requirements.
+Actionable Next Steps:
+* Provide clear written SOPs for IP handling and ensure staff are delegated/trained (signature log).
+* Report product defects to HSA per the defect-reporting requirements.
+* Verify labeling against local regulations (e.g., product name, protocol ID, “For clinical trial use,” storage conditions).
+________________
+
+
+5) MONITORING & ESSENTIAL DOCUMENTS
+What to Check:
+* Monitoring Activities
+   * Are eCRF entries verified and corrected promptly?
+   * Does the sponsor document its review of site visit reports?
+* Essential Document Templates
+   * Are sponsor-provided templates used consistently, without unauthorized changes?
+Common Gaps/Findings (2020–2021):
+* Discrepancies in eCRFs not resolved or verified.
+* No documentation of sponsor’s review of site visit reports.
+* Site staff amended sponsor document templates without sponsor approval.
+Actionable Next Steps:
+* Require consistent eCRF verification and ensure all data discrepancies are addressed.
+* Document sponsor sign-off or review of monitoring/site visit reports.
+* Prohibit unauthorized template modifications; route any needed changes through sponsor’s change-control process.
+________________
+
+
+REMOTE INSPECTIONS
+* On-Site vs. Remote vs. Hybrid
+   * Due to pandemic constraints, HSA conducted remote sponsor inspections in 2021.
+* Logistical Considerations
+   * Video conferencing platforms (for interviews, document reviews)
+   * File-sharing portals (pre-inspection and during inspection)
+   * Access to EMRs or eTMFs can be complex, requiring additional user IDs, security approvals, and extended time windows.
+* Challenges
+   * Inability to review participant medical records directly in some cases
+   * No facility tours
+   * Internet connectivity issues, time zone differences for multinational teams
+Implication for Sponsors and Sites:
+* Plan for robust remote documentation-sharing processes.
+* Anticipate training or user-access for inspectors in electronic systems.
+* Ensure that all essential documents and logs are prepared for digital review.
+________________
+
+
+END OF 2020–2021 TEXT.
+
+
+2019 GCP INSPECTIONS
+* Overall Context:
+   * Protocol-Specific Inspections (5)
+   * Sponsor Inspections (4)
+   * Multi-Site IIT (Investigator-Initiated Trials) Inspections (2)
+1) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* IP Delegation & Training
+   * Are staff members handling IP delegated by the PI and adequately trained (GCP, SOP, protocol)?
+* Written SOPs for IP Handling
+   * Are SOPs in place for IP receipt, storage, dispensing, accountability, re-labeling?
+* Documentation & ALCOA
+   * Does the site maintain IP logs with proper version control, traceability to subject IDs, and real-time record entries?
+Common Gaps/Findings (2019):
+* Staff performing IP receipt without formal delegation or training.
+* No SOPs for IP handling, or IP logs created retrospectively with discrepancies.
+* Non-compliance with GMP for IP repackaging/re-labeling.
+* IP label not conforming to clinical trials regulations (missing required elements).
+* Significant discrepancies in IP accountability (e.g., no ALCOA principles, inaccurate volume calculations).
+Actionable Next Steps:
+* Develop SOPs covering every step of IP management (receipt, labeling, dispensing, return).
+* Maintain ALCOA-compliant IP logs and ensure staff sign/initial entries contemporaneously.
+* Train and delegate staff in writing (signature sheets).
+* Verify IP labeling meets local regulatory requirements; follow GMP guidance for any repackaging.
+________________
+
+
+2) STUDY STAFF
+What to Check:
+* Training & Delegation
+   * Is there evidence of study-specific training (protocol procedures, IP handling, consent process)?
+   * Does the PI personally delegate tasks, or are sub-investigators improperly delegating?
+* Oversight
+   * Does the PI maintain active oversight of study activities and staff?
+Common Gaps/Findings (2019):
+* No study-specific training for staff.
+* Staff delegated by a sub-investigator instead of the PI.
+* In some IITs, the local sponsor (institution) did not properly track non-compliances or maintain oversight.
+Actionable Next Steps:
+* Require documented training on the specific protocol/SOPs/regulations.
+* Maintain a Delegation Log signed by the PI.
+* For IITs, ensure the institution’s Research Office/Clinical Research Unit has a system to track staff activities and handle non-compliances.
+________________
+
+
+3) INFORMED CONSENT
+What to Check:
+* Approved, Current ICF Versions
+   * Are participants signing only IRB-approved forms?
+* Participant Signatures & Dates
+   * Do subjects personally date the ICF?
+   * Do they receive a signed copy?
+* Amendments
+   * Are any changes to the ICF (even “non-substantial”) approved by the IRB before use?
+Common Gaps/Findings (2019):
+* Participants signed an unapproved ICF version.
+* Subjects did not personally date the ICF or receive signed copies.
+* ICFs amended without IRB approval and used prematurely.
+Actionable Next Steps:
+* Use only the most recent, IRB-approved ICF version.
+* Verify that each participant dates the ICF and receives a copy.
+* Submit all ICF changes (including minor ones that could affect participant understanding) to IRB for approval before use.
+________________
+
+
+4) SAFETY REPORTING
+What to Check:
+* SAE Reporting Timeliness
+   * Are SAEs rapidly communicated to the sponsor?
+* Serious Breach Notifications
+   * Does the sponsor notify HSA of any serious breaches without delay?
+Common Gaps/Findings (2019):
+* Delayed reporting of SAEs to the sponsor.
+* Serious Breach not notified to HSA when required.
+* Sponsor or CRO lacking oversight of the safety review process (e.g., no second-level checks).
+Actionable Next Steps:
+* Establish clear timelines for AE/SAE reporting in SOPs, train site staff, and monitor compliance.
+* Notify HSA promptly of any potential serious breaches.
+* Sponsors should document their safety review processes, including how they track and escalate SAEs.
+________________
+
+
+5) MONITORING
+What to Check:
+* Eligibility & Data Verification
+   * Do monitors thoroughly check eligibility criteria, CRF entries, and source data?
+* Oversight of Multi-Site IITs
+   * For lead sponsors, is there a monitoring plan addressing all participating sites?
+Common Gaps/Findings (2019):
+* Monitors not carefully reviewing eligibility criteria.
+* In IITs, the lead sponsor did not adequately oversee satellite sites (no documented monitoring visits or follow-up).
+Actionable Next Steps:
+* Implement a risk-based monitoring plan specifying frequency and scope of source data verification and eligibility checks.
+* For IITs, the institution as sponsor should develop a system to monitor all sites and escalate critical findings.
+________________
+
+
+6) SPONSOR OVERSIGHT OF INVESTIGATOR-INITIATED TRIALS (IITs)
+What to Check:
+* Lead Sponsor Responsibilities
+   * Does the sponsor (often an institution) identify all regulated trials, ensure compliance, and handle serious breach notifications?
+* Ongoing Sponsor Obligations
+   * Are Investigational Brochures (IB) updates submitted to HSA?
+   * Is the Clinical Research Materials (CRM) Notification filed when needed?
+Common Gaps/Findings (2019):
+* Lead sponsor did not assess or notify HSA about serious breaches.
+* Updated IB not submitted to HSA.
+* CRM Notification not filed.
+* Minimal or no oversight of satellite sites in multi-site IITs.
+Actionable Next Steps:
+* Maintain a centralized registry of all IITs under the institution’s purview.
+* Implement procedures to quickly evaluate non-compliances or potential breaches and notify HSA.
+* Ensure all IB updates and regulatory submissions (CRM, amendments) are done timely.
+* Conduct or coordinate site monitoring visits and keep documentation of oversight activities.
+________________
+
+
+END OF 2019 TEXT.
+2018 GCP INSPECTIONS
+* Types of Inspections (N=19):
+   * GCP (Site) Inspections
+   * Multi-Site Investigator-Initiated Trials (MS IIT) Inspections
+   * Sponsor Inspections
+1) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* IP Receipt, Dispensing & Accountability
+   * Is there consistent documentation of receiving IP, logging it in inventory, and reconciling usage vs. returns?
+   * Are logs attributable (ALCOA), up-to-date, and complete?
+* Expiration Dating & Labeling
+   * Does the sponsor apply correct initial expiry dates (aligned with certificate of analysis vs. stability studies)?
+   * Are waivers requested for any required label elements (e.g., subject ID) if missing?
+* Repackaging & Blinding
+   * Is there SOP coverage for any repackaging steps?
+   * Does the site keep the blind intact (e.g., unblinded tasks separated from blinded investigators)?
+Common Gaps/Findings (2018):
+* Ambiguity in IP expiry date: differing interpretations by manufacturer vs. sponsor.
+* Primary vs. secondary packaging expiry date not updated consistently.
+* Discrepancies in labeling (no subject ID, incorrect label content) with no formal waiver in place.
+* Traceability issues: missing documents, e.g., no link between ePRO data and IP logs.
+Actionable Next Steps:
+* Implement a clear SOP detailing IP management (from manufacturing to labeling to site dispensing).
+* Use a single, definitive expiry date in all documentation and labels.
+* Submit a “Reasons for Labelling Omissions” form for any required label elements you plan to omit.
+* Communicate subject IDs clearly to pharmacists or unblinded staff handling IP.
+________________
+
+
+2) ELECTRONIC PATIENT-REPORTED OUTCOMES (ePRO) & SOURCE DATA
+What to Check:
+* Data Flow & Review
+   * Are participants properly trained to enter data in the ePRO device?
+   * Are site staff regularly reviewing ePRO data, resolving queries, and verifying it matches source documentation?
+* Attributability & Audit Trail
+   * Does the system capture who made data changes, when, and why (i.e., ALCOA principles)?
+Common Gaps/Findings (2018):
+* Missing ePRO entries or entries not traceable to IP dispensing records.
+* No routine site/staff review of ePRO data.
+* Discrepancies between ePRO device logs and eCRF; no resolution or documentation of the cause.
+Actionable Next Steps:
+* Train participants on correct ePRO usage; provide them with contact info if they have technical issues.
+* Require staff to monitor ePRO submissions regularly, log any corrections, and keep an audit trail.
+* Ensure changes to ePRO data are authorized by qualified site personnel, with rationale documented.
+________________
+
+
+3) REGULATORY SUBMISSIONS
+What to Check:
+* Timely Reporting
+   * Are trial status reports submitted to HSA as per local regulations?
+   * Are substantial protocol or ICF amendments also submitted and approved before implementation?
+Common Gaps/Findings (2018):
+* Trial Status Reports not filed with HSA.
+* Substantial amendments (protocol/ICF changes) not submitted to HSA, risking non-compliance.
+Actionable Next Steps:
+* Familiarize your team with HSA submission timelines (e.g., 15 working days or as specified).
+* Determine whether each amendment is “substantial,” and if so, submit to HSA before using new documents.
+* Maintain a tracker for submission deadlines to avoid lapses.
+________________
+
+
+4) STUDY STAFF
+What to Check:
+* Delegation & Training
+   * Are all staff who handle IP or consent delegated by the PI (not by a sub-investigator)?
+   * Have they completed GCP training (mandatory for PIs), protocol-specific training, or CITI (as required)?
+Common Gaps/Findings (2018):
+* Site staff administered IP before being delegated by the PI.
+* CVs, training certificates, and delegation logs not maintained for certain staff.
+Actionable Next Steps:
+* Require the PI to sign off on each staff member’s delegation in a timely manner.
+* Keep a Study Staff Tracking Log with start/end dates, licensing details (if needed), GCP/CITI certificates, training on protocols, etc.
+* Ensure new staff do not perform any study tasks until both training and delegation are documented.
+________________
+
+
+MS IIT INSPECTIONS (2018)
+5) IP MANAGEMENT (MS IITs)
+What to Check:
+* Multi-Site Consistency
+   * Do all sites use the same IP documentation templates and procedures?
+   * Is IP repackaging documented (with a witness) across all sites?
+* Blinding Integrity
+   * Is there a process ensuring blinded personnel do not access randomization data?
+Common Gaps/Findings (2018):
+* Inadequate IP receipt & inventory logs.
+* No witness or documentation for repackaging/relabeling steps.
+* Blinded PI/Investigators signing off on unblinded data (compromising the blind).
+Actionable Next Steps:
+* Develop a uniform IP Management SOP, used consistently across all sites in the trial.
+* Provide cross-institution training for staff involved in IP management.
+* Separate unblinded tasks (e.g., randomization, repackaging) from blinded staff to maintain study integrity.
+________________
+
+
+SPONSOR INSPECTIONS (2018)
+6) SPONSOR QUALITY SYSTEMS & OVERSIGHT
+What to Check:
+* Quality Assurance & Quality Control
+   * Does the sponsor or CRO ensure that each step (monitoring, IP supply, data handling) follows GCP/regulations?
+* Study Monitoring & Data Handling
+   * Are eCRFs, eTMFs, or IWRS systems accessible for sponsor oversight?
+   * Is the sponsor reviewing site visit reports for consistency and prompt follow-up on findings?
+Common Gaps/Findings (2018):
+* Inadequate quality checks for IP expiry, labeling, or accountability.
+* Minimal sponsor oversight of ePRO processes (leading to data gaps).
+* Delayed or missing sponsor sign-off on monitoring visit reports.
+Actionable Next Steps:
+* Adopt a risk-based quality management approach focusing on the most critical aspects of the trial (eligibility, safety, IP management).
+* Ensure sponsor representatives or CRO staff systematically review eTMFs, eCRFs, and site communications.
+* Document sponsor sign-off on monitoring reports and CAPA (Corrective Action & Preventive Action) plans.
+________________
+
+
+
+
+2017 INSPECTIONS OVERVIEW
+* Inspection Types:
+   * GCP (Site) Inspections
+   * Multi-Sponsor Investigator-Initiated Trials (MS IIT) Inspections
+   * Clinical Research Material (CRM) Inspections
+* Therapeutic Areas & Phases:
+   * Oncology, Ophthalmology, Infectious Diseases, etc.
+   * Phases I–IV
+* Sponsors:
+   * ~53% by Industry, ~47% by Institutions
+________________
+
+
+GCP (SITE) INSPECTIONS
+1) INFORMED CONSENT
+What to Check:
+* Local Requirements
+   * In Singapore, only a locally registered doctor/dentist authorized by the PI can obtain consent (Health Products (Clinical Trials) Regulations, Regulation 18(1)).
+* Adults Lacking Capacity
+   * Does the legal representative meet the correct order of priority (spouse, adult child, parent/guardian, adult sibling, or a named individual)?
+   * Is consent for continued participation obtained once the participant regains capacity (if applicable)?
+Common Gaps/Findings (2017):
+* Consent obtained by a sub-investigator not registered locally.
+* An impartial witness was not truly independent (e.g., monitor or sponsor staff).
+* Consent for an adult lacking capacity was given by someone who did not qualify as a legal representative.
+* No re-consent obtained if/when the participant’s capacity returned.
+Actionable Next Steps:
+* Confirm that only a locally registered investigator obtains informed consent.
+* If participant cannot read, the impartial witness must be independent of the trial.
+* Use an approved template for consenting adults lacking capacity, ensuring the correct legal representative is approached in the correct order of priority.
+* Re-consent participants who regain capacity.
+________________
+
+
+2) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* Repackaging & Blinding
+   * Are there SOPs for IP repackaging, line clearance, labeling, and handling by unblinded staff only?
+   * Is the blind maintained in all correspondences and tasks?
+* Traceability & Storage
+   * Do temperature logs adhere to ALCOA (Accurate, Legible, Contemporaneous, Original, Attributable)?
+   * Is labeling compliant with local regulations (Health Products (CT) Regs, Annex 13 GMP principles, etc.)?
+Common Gaps/Findings (2017):
+* No evidence of line clearance during repackaging.
+* Blinded/unblinded team roles not clearly separated—risking accidental unblinding.
+* Unblinded coordinator dispensing IP before receiving protocol-specific training.
+* IP temperature logs inaccurate or incomplete.
+Actionable Next Steps:
+* Create detailed SOPs for IP management (from repackaging to dispensing to destruction).
+* Keep separate logs and responsibilities for the blinded vs. unblinded team.
+* Train unblinded staff on IP tasks prior to dispensing.
+* Regularly calibrate and review temperature loggers; report any excursions promptly.
+________________
+
+
+MULTI-SPONSOR INVESTIGATOR-INITIATED TRIALS (MS IIT) INSPECTIONS
+3) LEAD SPONSOR RESPONSIBILITIES
+What to Check:
+* Regulatory Submissions
+   * Are protocol amendments (including substantial ICF changes) submitted to HSA before implementation?
+* CRM Notification
+   * Are imported laboratory kits or devices notified under CRM if required?
+Common Gaps/Findings (2017):
+* Substantial ICF amendments not submitted to HSA.
+* Lab kits imported without filing a CRM Notification.
+* Temperature logs for IP at satellite sites were inaccurate or not cross-checked.
+Actionable Next Steps:
+* The lead sponsor must handle or coordinate all regulatory submissions (amendments, serious breach reports) to HSA.
+* Check if lab kits or medical devices need a CRM Notification.
+* Maintain consistent processes across all sites (single set of SOPs, logs, training).
+________________
+
+
+CLINICAL RESEARCH MATERIAL (CRM) INSPECTIONS
+4) CRM REQUIREMENTS
+What to Check:
+* Receipt, Supply & Disposal Records
+   * Does the site keep accurate logs of CRM shipments, dispensing, returns, or destruction?
+   * Are there discrepancies between IVRS stock reports and physical inventory?
+* Storage Conditions
+   * Are temperature logs reviewed and reset daily or as specified?
+   * Do staff report temperature excursions to the sponsor immediately?
+Common Gaps/Findings (2017):
+* Mismatches between IVRS inventory and actual site stock.
+* No re-calibration or routine checks of temperature devices.
+* Files from different trials combined without proper redaction (risking confidentiality issues).
+Actionable Next Steps:
+* Maintain a single, consistent CRM log for each trial, cross-checked with IVRS.
+* Re-calibrate thermometers on a set schedule; document everything.
+* For multi-trial sites, ensure each study’s temperature logs are kept separately or properly blinded to avoid data mix-ups.
+________________
+
+
+CASE STUDIES (ADULTS LACKING CAPACITY)
+* Priority Order: Donee → Deputy → Spouse → Adult Child → Parent/Guardian → Adult Sibling → Named Other.
+* Key Lessons:
+   * The correct legal representative must be used.
+   * If the LPA (Lasting Power of Attorney) or court appointment excludes consenting to clinical trials, that donee/deputy cannot provide consent.
+   * If the participant regains capacity, re-consent is mandatory.
+________________
+
+
+END OF 2017 TEXT.
+2016 GCP INSPECTIONS
+Context:
+* 9 total inspections (8 protocol-specific, 1 systems-based)
+* Therapeutic areas included Anaesthesia, Cardiology, Infectious Disease, O&G, Oncology, Psychiatry, Rheumatology.
+1) CASE REVIEW (SOURCE DATA & PROTOCOL COMPLIANCE)
+What to Check:
+* Eligibility & Protocol Adherence
+   * Are participants truly meeting inclusion/exclusion criteria before enrollment?
+   * Are any protocol deviations documented and explained?
+* Data Accuracy
+   * Do source documents (SD) match CRF entries (i.e., no discrepancies)?
+   * Are data recorded in a manner consistent with ALCOA (Attributable, Legible, Contemporaneous, Original, Accurate)?
+Common Gaps/Findings (2016):
+* Ineligible subjects enrolled (lack of protocol compliance).
+* Data not recorded accurately or discrepancies between SD and CRF.
+* Deviations not documented or explained.
+Actionable Next Steps:
+* Reinforce training on eligibility checks to ensure staff confirm each criterion.
+* Adopt a clear SOP for documenting protocol deviations (who logs them, how and when).
+* For data accuracy, implement periodic data reviews (e.g., site monitoring, internal QA).
+________________
+
+
+2) INFORMED CONSENT
+What to Check:
+* Approved ICF & Timing
+   * Are participants consenting on the IRB/HSA-approved version before any study procedures?
+   * Is each subject personally signing and dating the form?
+* Investigator & Impartial Witness Signatures
+   * Are the signatures consistent with the Delegation Log (i.e., correct investigator name)?
+   * If a subject cannot read, is a truly independent witness present?
+* Documentation
+   * Is consent version tracking maintained (e.g., logs referencing IRB/HSA approvals)?
+   * Are any translators used, and is that documented?
+Common Gaps/Findings (2016):
+* Procedures conducted before ICF was signed.
+* Participants signing unapproved ICF versions.
+* Investigators using different signatures from the signature sheet.
+* Missing or improperly dated signatures (including the impartial witness).
+* No impartial witness for subjects unable to read.
+Actionable Next Steps:
+* Develop a log to track which version of the ICF each participant signed, including IRB/HSA approval dates.
+* Always confirm that participants sign/date the correct IRB-approved form prior to any study procedure.
+* Ensure investigators and impartial witnesses sign and date the ICF themselves (no stamps).
+________________
+
+
+3) INVESTIGATIONAL PRODUCT (IP)
+What to Check:
+* IP SOPs
+   * Are there written instructions for dose calculations, receipt, labeling, storage, dispensing, and accountability?
+   * Does labeling comply with local regulations (e.g., Medicines (CT) Regs or Health Products (CT) Regs)?
+* Traceability & Storage
+   * Is there a designated storage area with documented temperature logs and logs for shipping/receipt?
+   * Are any temperature excursions reported and addressed promptly?
+Common Gaps/Findings (2016):
+* No formal instructions for dose calculations based on body weight.
+* Missing IP shipping records or not stored in a designated area.
+* Discrepancies in temperature logs or no consistent record-keeping (ALCOA issues).
+* IP label not compliant with regulatory requirements.
+Actionable Next Steps:
+* Draft a thorough IP handling SOP covering dose calc, shipping receipts, temperature monitoring, accountability logs, and destruction.
+* Maintain temperature logs meticulously, and note any excursions.
+* Verify labels meet all local regulatory requirements, referencing HSA’s Labelling Guidance for Clinical Trials.
+________________
+
+
+4) INVESTIGATOR’S SITE FILE (ISF)
+What to Check:
+* Essential Documents & Confidentiality
+   * Are subject identifiers (names, NRIC numbers, etc.) redacted or kept separate when sponsor copies essential documents?
+   * Are trial insurance documents on file and valid?
+* Maintenance & Updates
+   * Is there a system to keep track of protocol amendments, IRB/HSA approvals, staff delegation logs?
+Common Gaps/Findings (2016):
+* Sponsor retrieved documents with identifiable patient info, compromising privacy.
+* Missing proof of clinical trial insurance.
+Actionable Next Steps:
+* Redact or de-identify patient info if sponsor needs copies of essential documents.
+* Ensure the site file contains valid clinical trial insurance documentation and is updated with relevant amendments and approvals.
+________________
+
+
+5) MONITORING
+What to Check:
+* Risk-Based Monitoring
+   * Does the monitor verify eligibility, source data accuracy, and essential document completeness?
+* Documentation
+   * Are site visit reports capturing critical issues and follow-up actions?
+Common Gaps/Findings (2016):
+* No thorough eligibility checks; incomplete source document verification.
+* Discrepancies between CRF and source not resolved.
+* Significant discussions about trial conduct not documented.
+Actionable Next Steps:
+* Follow the monitoring plan precisely: cross-check CRFs against source data, check protocol compliance, confirm essential docs are maintained.
+* Document all notable discussions and deviations in monitoring reports.
+* Encourage prompt corrective actions for identified issues.
+________________
+
+
+END OF 2016 TEXT.
+2015 GCP INSPECTIONS
+Context:
+* 15 protocol-specific inspections
+* Various therapeutic areas (e.g., Oncology, Infectious Disease, Neurology, etc.)
+* 1 “Critical” finding triggered by a Serious Breach
+1) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* IP SOPs & Staff Training
+   * Are there written procedures (SOPs) covering IP storage, labeling, dispensing, and accountability?
+   * Do nurses, pharmacy technicians, or other allied staff get documented training before handling IP?
+* Traceability of IP Strengths & Labeling
+   * If multiple IP strengths exist, are they clearly labeled and differentiated to prevent mix-ups?
+   * Are IP labels compliant with regulatory requirements (e.g., product name, “For Clinical Trial Use”)?
+Common Gaps/Findings (2015):
+* Critical: Wrong strength of IP dispensed to subjects; no robust system for checking IP strength.
+* No or inadequate SOPs; staff did not realize multiple IP strengths were available.
+* Labeling, temperature logs, accountability records, or cross-check procedures lacking.
+Actionable Next Steps:
+* Implement a comprehensive SOP for IP management (receipt through destruction).
+* Train all staff handling IP; maintain training logs in the Investigator Site File.
+* Segregate or clearly label different IP strengths; require countersignatures for dispensing.
+________________
+
+
+2) INFORMED CONSENT
+What to Check:
+* Timing & Version Control
+   * Is consent obtained (with correct, IRB/HSA-approved form) before any study-related procedure?
+   * Do you track each participant’s signed ICF version/date?
+* Signature Requirements
+   * Are the subject, person obtaining consent, and impartial witness (if needed) personally signing and dating?
+   * Does the investigator have documented authorization to obtain consent?
+Common Gaps/Findings (2015):
+* Subjects underwent study procedures prior to signing the ICF.
+* Participants signed unapproved ICF versions or no consistent version control log.
+* Missing personal dates/signatures or incorrect signatures (discrepancies with the delegation log).
+Actionable Next Steps:
+* Maintain a Regulatory Document Tracking Log to confirm IRB/HSA-approved versions.
+* Use an Informed Consent Tracking Log capturing each subject’s ICF version and date.
+* Re-train staff to ensure that consent is always documented before procedures begin.
+________________
+
+
+3) DATA & ESSENTIAL DOCUMENTATION
+What to Check:
+* Case Review & Source Data
+   * Are source data forms (e.g., Data Collection Forms) complete, legible, and original (no retrospective entries)?
+   * Do CRF entries match source documents (ALCOA principles)?
+* Site File Maintenance
+   * Are essential documents (protocol, delegation logs, IRB/HSA correspondences) version-controlled and up to date?
+   * Are amendments initialed/dated (no pencil, no correction tape) with an audit trail?
+Common Gaps/Findings (2015):
+* Data not recorded in a timely, accurate manner (retrospective or unclear entries).
+* Site files lacked proper version control, with some documents missing or not updated.
+* Sponsor retrieving essential documents containing full subject identifiers, breaching confidentiality.
+Actionable Next Steps:
+* Ensure each data form includes version dates and is used consistently with the current protocol.
+* Keep a robust Investigator Site File with an established system for version control and quality checks.
+* Redact any patient identifiers before sending documents to sponsor (if sponsor doesn’t require identifiable info).
+________________
+
+
+4) SAFETY REPORTING & MONITORING
+What to Check:
+* Serious Adverse Event (SAE) Tracking
+   * Are SAEs that are serious, related, and unexpected reported to IRB/HSA according to local timelines?
+* Monitoring
+   * Does the monitor verify protocol adherence (inclusion/exclusion, IP use) and data accuracy?
+   * Are significant findings or deviations documented and communicated?
+Common Gaps/Findings (2015):
+* Delayed or missing SAE reports; no log to track the date of sponsor/IRB/HSA notification.
+* Monitors not identifying or escalating major protocol non-compliances.
+* Lack of follow-up on issues identified in monitoring reports.
+Actionable Next Steps:
+* Maintain an SAE Tracking Log, documenting onset/reporting dates to sponsor, IRB, and HSA.
+* Define a Monitoring Plan requiring thorough source data checks, eligibility confirmation, and follow-up of findings.
+* Encourage documentation of all significant communications with the site, along with timely corrective actions.
+________________
+
+
+HOW TO USE THIS FORMAT (2015)
+1. Review Each Domain
+   * IP Management, Informed Consent, Data & Essential Documentation, Safety Reporting & Monitoring.
+2. Identify Gaps
+   * Look for missing SOPs, unapproved ICF versions, incomplete data logs, or unreported SAEs, etc.
+   * Classify findings by severity (Critical, Major, Other).
+3. Assign Corrective Actions
+   * Use the “Actionable Next Steps” to address specific gaps.
+   * Designate the responsible individuals (PI, sponsor, study coordinator) and due dates.
+4. Track and Close Findings
+   * Document each finding, corrective measure, and final resolution.
+   * Verify changes have been implemented (e.g., updated SOP, staff retraining) before closure.
+END OF 2015 TEXT.
+2014 GCP INSPECTIONS
+Context:
+* 15 protocol-specific inspections + 1 systems-based (on Informed Consent and IP)
+* No Critical Findings this year.
+* Main “Major” findings revolved around Investigational Product and Informed Consent.
+________________
+
+
+1) INFORMED CONSENT
+What to Check:
+* Authorized Staff & Competency
+   * Is the person obtaining consent a locally registered medical doctor or dentist, and are they explicitly delegated by the PI?
+* Impartial Witness
+   * For subjects unable to read or otherwise needing a witness, is the witness truly independent of the trial (not easily influenced by investigators or sponsors)?
+   * Does the witness also speak/read the same language as the informed consent form?
+* Language & Version Control
+   * Are the correct IRB-approved language versions used?
+   * Do updated or translated forms maintain version tracking?
+Common Gaps/Findings (2014):
+* Sub-investigators or unqualified staff obtaining consent without proper delegation.
+* Impartial witnesses not truly independent (e.g., a current trial participant acting as a witness).
+* Impartial witness cannot read the language of the consent form.
+* Missing version control for ICF updates/amendments.
+Actionable Next Steps:
+* Maintain a Signature/Delegation Log listing only locally registered investigators as authorized to obtain consent.
+* Use a log for verifying the correct ICF version in each subject’s file.
+* If witness is needed, verify that person is independent and literate in the form’s language.
+* Re-train staff on local regulatory requirements (Med(CT) Regs, SGGCP 4.8).
+________________
+
+
+2) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* Randomization & Blinding
+   * Is the randomization list version-controlled and clearly attributed (who generated it, which protocol, date)?
+   * Does the source record accidentally reveal the treatment assignment (“ABC vaccine / placebo”)?
+* Prescription & Labeling
+   * Do prescriptions, IP labels, and accountability logs clearly identify the subject without revealing the blind?
+* Electronic Logs
+   * Are electronic IP logs attributable, secure, and do they leave an audit trail?
+Common Gaps/Findings (2014):
+* No documented link between the randomization list and the protocol (no sign-off, no version control).
+* Source document templates unblinded participants by labeling them as “vaccine/placebo.”
+* Prescriptions missing subject identifiers.
+* Electronic IP logs lacking clear audit trails or version control (e.g., who entered data, when, etc.).
+Actionable Next Steps:
+* Implement a randomization SOP ensuring the list is signed/dated, tied to a protocol, and stored securely.
+* Remove direct references to “vaccine/placebo” in the subject’s source docs if the study is blinded.
+* For prescriptions, include a minimal set of identifiers (e.g., Subject ID) while maintaining blinding.
+* Validate any electronic log system with ALCOA+ (Attributable, Legible, Contemporaneous, Original, Accurate) principles.
+________________
+
+
+3) STUDY STAFF & SITE FILE
+What to Check:
+* Staff Delegation & Training
+   * Is there a delegation log listing each staff member’s name, role, and start/end dates?
+   * Are staff credentials (CV, GCP certificates) on file?
+* Essential Document Control
+   * Is there a system to track versioning (date, revision number) for protocols, logs, source templates?
+   * Are amendments initialed/dated with an audit trail?
+Common Gaps/Findings (2014):
+* Post-graduate medical students obtaining consent without being authorized or qualified.
+* Source document templates having no documented “owner” or version.
+* Investigator Site Files missing or outdated delegation logs, incomplete document tracking.
+Actionable Next Steps:
+* Keep a Delegation Log with each staff’s role and authorization, plus training records.
+* Apply formal document control procedures to all templates/forms used for source data.
+* Cross-check the site file regularly (monthly or quarterly) for missing or updated documents.
+________________
+
+
+
+
+END OF 2014 TEXT.
+2013 GCP INSPECTIONS
+Context:
+* 10 protocol-specific inspections
+* No Critical Findings reported in 2013
+* Major Findings primarily involved Investigational Product (IP) Management and Monitoring
+________________
+
+
+1) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* Labeling Compliance
+   * Do IP labels comply with local regulatory requirements (Medicines (Clinical Trials) Regulation 18(1))?
+   * Are sponsor/institution label waivers (e.g., dummy expiry date) documented and approved if needed?
+* Written Procedures & Documentation
+   * Are there SOPs for IP shipping, receipt, storage, dispensing, accountability, return, and destruction?
+   * Do IP logs capture dates, quantities, batch numbers, expiry dates, and subject code numbers?
+Common Gaps/Findings (2013):
+* IP label did not meet local requirements or SGGCP 4.6.3 (missing key elements, unapproved format).
+* No quality systems for IP management (SOPs lacking or incomplete).
+* IP records missing essential data (e.g., batch numbers, quantity dispensed).
+Actionable Next Steps:
+* Adopt a formal IP Management SOP covering labeling and accountability.
+* Ensure all IP documentation includes the required data points.
+* If special labeling approaches (e.g., dummy expiry) are used, submit a waiver request to HSA.
+________________
+
+
+2) MONITORING & SPONSOR OVERSIGHT
+What to Check:
+* Monitoring Plan
+   * Does the sponsor have a documented plan to verify protocol adherence, IP management, and data integrity?
+* Quality Systems
+   * Are systems in place to ensure oversight for all trial processes (SOPs, staff training, monitoring reports)?
+Common Gaps/Findings (2013):
+* Sponsor did not have a risk-based or systematic approach to oversight.
+* Limited verification of compliance (no thorough checks on IP logs, no timely detection of missing data).
+Actionable Next Steps:
+* Implement or refine a Monitoring Plan covering site visits, source data verification, IP checks, and essential documents.
+* Conduct periodic audits or QA reviews to ensure the sponsor identifies and addresses issues promptly.
+________________
+
+
+3) INVESTIGATOR SITE FILE (ISF)
+What to Check:
+* Essential Documents
+   * Are all required items (e.g., protocol signature page, HSA approval emails, record of retained samples) filed?
+* Document Accuracy & Version Control
+   * Are translated documents accurate and matching the IRB-approved versions?
+   * Is there a system to track which version of each essential document is in use?
+Common Gaps/Findings (2013):
+* Missing IRB/HSA approval records, incomplete protocol signature pages, or absent sample-retention logs.
+* Inaccurate or unverified document translations.
+* No version control for critical forms/logs.
+Actionable Next Steps:
+* Use a master ISF checklist referencing SGGCP Section 8 (Essential Documents).
+* Verify any translated documents match the official IRB-approved version.
+* Apply version numbers or dates for all file documents, ensuring updates are logged.
+________________
+
+
+4) STUDY STAFF
+What to Check:
+* Delegation & Training
+   * Are responsibilities assigned in a signed Delegation Log reflecting the correct tasks for each staff member?
+   * Does each staff member have a current CV and documented training records (SGGCP 4.2.4)?
+* Roles & Responsibilities
+   * Are staff delegated for key trial tasks (e.g., consent, IP dispensing, eligibility assessment)?
+Common Gaps/Findings (2013):
+* Incomplete or outdated Signature Sheet (missing version control, unclear responsibilities).
+* No training logs or CVs for some personnel performing trial-related activities.
+Actionable Next Steps:
+* Maintain an up-to-date Delegation/Signature Sheet with version control.
+* File training records (GCP certificates, protocol training) and CVs for all staff, especially those performing significant tasks.
+________________
+
+
+END OF 2013 TEXT.
+2012 GCP INSPECTIONS
+Context:
+* 10 protocol-specific inspections + 1 systems-based (Informed Consent and IP)
+* No Critical findings
+* Major findings primarily in Informed Consent, Investigational Product, and Case Review (data accuracy)
+________________
+
+
+1) INFORMED CONSENT
+What to Check:
+* Version Control & Approvals
+   * Are the correct, IRB-approved ICF versions used at all times?
+   * Is any amended ICF also approved by HSA (if required) and implemented promptly?
+* Substituted Consent
+   * For subjects under 21/unmarried or lacking capacity, is substituted consent properly documented (relationship, legal basis)?
+   * Are two independent doctors required if protocol/regulations specify mental capacity certification?
+* Process Documentation
+   * Did the subject (or authorized representative) personally sign/date the form?
+   * Is the investigator obtaining consent formally delegated?
+Common Gaps/Findings (2012):
+* Wrong version of ICF used (older or not IRB-approved).
+* Substituted consent missing or improperly documented for minors or incapacitated subjects.
+* Investigator roles not properly listed on the signature sheet for obtaining consent (e.g., CRC doing consent but not qualified or delegated).
+* No written record in the subject’s medical chart.
+Actionable Next Steps:
+* Implement an ICF Tracking Log that notes IRB/HSA approval dates and version numbers.
+* Keep a Delegation Log specifying which locally licensed physicians can obtain consent.
+* Ensure any substituted consent is clearly documented (birth certificates for minors, mental capacity assessment for incapacitated subjects).
+________________
+
+
+2) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* Protocol Alignment
+   * Is the actual IP use (open-label vs. blinded) consistent with the protocol?
+* SOPs & GMP Requirements
+   * Are there written procedures for IP storage, handling, randomization, repackaging, labeling, accountability, and returns?
+   * Does repackaging meet GMP standards (e.g., line clearance, in-process checks)?
+* Authorized Staff & Documentation
+   * Are staff who dispense IP delegated by the PI?
+   * Do logs include dates, batch numbers, expiry, and subject codes?
+Common Gaps/Findings (2012):
+* Protocol indicated “open-label” but site operated as if it was “double-blind.”
+* No formal IP Management SOP or non-compliance with local GMP guidelines for on-site repackaging.
+* Missing fields (batch number, quantity) in accountability logs; staff not listed on the signature sheet.
+Actionable Next Steps:
+* Draft (or update) an IP Management SOP that covers shipping, receipt, labeling, storage, dispensing, accountability, and returns.
+* Confirm that the actual conduct (open-label or blinded) matches the protocol.
+* Verify all staff handling IP appear on the signed Delegation Sheet and have appropriate training logs.
+________________
+
+
+3) CASE REVIEW (SOURCE DOCUMENTS & DATA ACCURACY)
+What to Check:
+* Source vs. CRF Consistency
+   * Are any retrospective entries clearly labeled as such, with corrections initialed/dated?
+* Timeliness & Completeness
+   * Does the site promptly enter data (no large lags), and are all required protocol fields captured?
+Common Gaps/Findings (2012):
+* Retrospective documentation with no indication it was backdated or corrected.
+* Discrepancies between source data and CRFs (potential transcription errors).
+Actionable Next Steps:
+* Reinforce ALCOA principles (Attributable, Legible, Contemporaneous, Original, Accurate).
+* Conduct routine internal data checks (monitoring or QA) to identify discrepancies early.
+* Train staff on how to properly correct data and maintain an audit trail.
+________________
+
+
+4) OTHER OBSERVATIONS (IP, ISF, BIOLOGICAL SAMPLES)
+Investigational Product
+* Missing log details (e.g., no recording of IP transfer between storage locations).
+* Uncalibrated temperature monitors or missing calibration records.
+Investigator Site File (ISF)
+* Essential documents maintained electronically but no audit trail or version control.
+* Lack of document control for each updated item (protocol, CRF forms, logs).
+Biological Samples
+* Calibration/maintenance records for lab equipment (centrifuges, freezers) missing or out of date.
+________________
+
+
+END OF 2012 TEXT.
+2011 GCP INSPECTIONS
+Context:
+* Focused primarily on Informed Consent issues (especially when subjects cannot read the ICF) and Investigational Product (IP) Management (particularly when the site is involved in repackaging/blinding).
+________________
+
+
+1) INFORMED CONSENT
+What to Check:
+* Local Regulatory Requirements
+   * In Singapore, the Medicines (Clinical Trials) Regulations do not provide for a “short-form” consent for clinical trials.
+* Subjects Unable to Read ICF
+   * Must have an impartial witness present (SGGCP 4.8.9, Med(CT) Reg 11(5)) who is truly independent of the trial.
+* Documentation & Process
+   * WHO can obtain consent? (a locally registered physician authorized by the PI)
+   * WHEN is consent obtained? (must be prior to any study procedures)
+   * HOW is it explained and documented (translator vs. witness vs. fully translated ICF)?
+   * Are correct version(s) of the ICF used and initialed?
+Common Gaps/Findings (2011):
+* Use of a short form consent that is not permitted under local regulations for medicinal product trials.
+* No impartial witness present for participants unable to read the ICF.
+* Investigator delegate (e.g., study coordinator) obtaining consent without being properly qualified or registered.
+* Insufficient documentation in medical records about how consent was obtained (e.g., translator used, relationship to subject).
+Actionable Next Steps:
+* Always use a fully translated ICF approved by IRB/HSA if participant cannot read English.
+* If no translated ICF is available, an impartial witness is required, and the entire consent discussion must be documented.
+* Maintain logs/tracking to ensure each subject uses the correct version of the ICF, and store documentation (including witness details) in the Investigator Site File and medical records.
+________________
+
+
+2) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT
+What to Check:
+* Repackaging/Blinding SOPs
+   * If the site is involved in repackaging or labeling IP (especially for a double-blind study), are GMP principles followed?
+   * Are roles and responsibilities clearly separated between blinded and unblinded staff?
+* Documentation
+   * Shipping receipt, temperature logs, accountability logs must include batch numbers, lot numbers, expiry dates, date/time, and staff signatures.
+   * Electronic logs should have an audit trail (who changed what, when).
+* Labeling Requirements
+   * IP label must meet local (Medicines (CT) Regulations) labeling rules, including “For Clinical Trial Use” statements, expiry date, and storage conditions.
+Common Gaps/Findings (2011):
+* Mismatched placebo easily distinguishable from active (risking unblinding).
+* Blinded coordinator receiving/storing bulk IP (should be done by unblinded staff).
+* No SOP for on-site IP repackaging, or no GMP checks (line clearance, label reconciliation).
+* Missing or incomplete logs (e.g., no batch number, no expiry date, no audit trail in electronic logs).
+Actionable Next Steps:
+* Clearly designate unblinded staff (e.g., pharmacist) to handle bulk IP receipt, repackaging, and randomization.
+* Develop or update an IP Management SOP covering shipping, labeling, repackaging, accountability, temperature monitoring, etc.
+* Keep separate logs for unblinded tasks (randomization, repackaging) vs. blinded tasks (dispensing to subjects), ensuring the blinded team does not have access to randomization data.
+________________
+
+
+END OF 2011 TEXT.
+2009–2010 GCP INSPECTIONS
+Context:
+* First launched in September 2009; 13 site inspections completed by end of 2010.
+* Therapeutic areas included Vaccines, Oncology, Neurology, Cardiology, Infectious Disease, etc.
+Overall Classification of Findings (N=158 Observations)
+* Critical (~1%)
+* Major (~13%)
+* Other (~46%)
+* Comments (~40%)
+________________
+
+
+1) LACK OF PROTOCOL COMPLIANCE (CRITICAL FINDING)
+What to Check:
+* Key Protocol Requirements
+   * Are eligibility criteria, treatment regimens, and assessments followed as per protocol?
+   * Any protocol deviations that risk participant safety or data integrity?
+Common Gaps/Findings (2009–2010):
+* Significant non-compliances affecting rights/safety of participants or quality of data.
+Actionable Next Steps:
+* Reinforce training on the protocol’s critical aspects.
+* Implement deviation tracking and immediate escalation procedures for serious deviations.
+________________
+
+
+2) INFORMED CONSENT (MAJOR FINDINGS)
+What to Check:
+* Regulatory Approvals
+   * Are updated/amended ICFs approved by HSA and IRB (if required) before use?
+* Consent Process & Documentation
+   * Does each subject personally sign/date the form?
+   * Are witnesses involved where the subject or LAR cannot read the ICF?
+Common Gaps/Findings (2009–2010):
+* Subject signed an amended ICF not approved by the licensing authority.
+* Invalid substituted consent for minors or those lacking capacity (not following local regs).
+* Missing impartial witness signatures/dates for participants who cannot read the ICF; or witness not truly independent.
+Actionable Next Steps:
+* Use only IRB/HSA-approved forms (unless purely administrative changes).
+* Ensure correct procedures for substituted consent and witnessing (Medicines(CT) Reg 11).
+* Document the consent process thoroughly (who obtained it, when, witness details).
+________________
+
+
+3) INVESTIGATIONAL PRODUCT (IP) MANAGEMENT (MAJOR FINDINGS)
+What to Check:
+* IP Labeling Compliance
+   * Labels must meet local requirements (Medicines (CT) Reg 18, SGGCP 4.6.3).
+   * Is “For Clinical Trial Use” clearly stated, along with expiry, batch number, storage conditions?
+* Traceability & Accountability
+   * Do logs capture each IP shipment, receipt date, temperature monitoring, dispensing, returns, etc.?
+   * Are staff authorized (via delegation log) to handle IP?
+Common Gaps/Findings (2009–2010):
+* IP label not adhering to regulations.
+* Temperature monitoring procedures missing or inaccurate (no calibration or reset instructions).
+* No SOP for IP re-labeling or accountability.
+* Logs typed retrospectively, not manually completed in real time; unauthorized amendments by CRA.
+Actionable Next Steps:
+* Develop a robust IP Management SOP (covering labeling, storage, accountability).
+* Calibrate and document thermometers; record corrective actions for any excursions.
+* Reconcile IP logs, shipment receipts, and randomization confirmations (e.g., IVRS).
+________________
+
+
+4) STUDY STAFF (MAJOR FINDINGS)
+What to Check:
+* Notifications to HSA
+   * Any change in Principal Investigator must be reported.
+* Signature/Delegation Sheet
+   * Is there a log capturing each staff member’s signature, role, and authorization?
+Common Gaps/Findings (2009–2010):
+* HSA not notified about a change in PI.
+* No maintained signature sheet (delegation log) per site.
+Actionable Next Steps:
+* Immediately notify IRB/HSA of PI changes.
+* Keep an updated delegation log in the Investigator Site File with date of assignment and staff credentials.
+________________
+
+
+5) “OTHER” OBSERVATIONS (INFORMED CONSENT, IP, CASE REVIEW)
+Informed Consent:
+* No documentation of the process in source notes.
+* Missing personal dates by subjects/witnesses, or ICF amendments not initialed/dated.
+IP Accountability:
+* Staff performing IP tasks without authorization on the delegation log.
+* Inadequate or incomplete logs for randomization, dispensing, or returns.
+Source Documentation (Case Review):
+* Insufficient detail in source documents.
+* Discrepancies between source and CRF not explained or corrected.
+Actionable Next Steps:
+* Incorporate Good Documentation Practice (initial/date all corrections, maintain an audit trail).
+* Ensure each staff role is documented in a signature sheet.
+* Perform routine internal checks for data consistency (source vs CRF).
+________________
+
+
+END OF 2009–2010 TEXT.
