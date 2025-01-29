@@ -25,6 +25,9 @@ const CASE_STUDIES = `
 [Your case studies content here]
 `.trim()
 
+export const maxDuration = 300 // Set max duration to 300 seconds (5 minutes)
+export const dynamic = 'force-dynamic' // Disable static optimization
+
 export async function POST(request: NextRequest) {
   try {
     const formData = await request.formData()
@@ -105,38 +108,48 @@ export async function POST(request: NextRequest) {
           content: `Document content: ${pdfText}\n\nReference Case Studies:\n${caseStudies}\n\nPlease analyze the document, identify gaps, and provide next steps based on the case studies and GCP requirements.`
         }
       ],
-      temperature: 0.7,
+      temperature: 0,
       max_tokens: 4000,
       stream: true
     })
 
-    // Use Web Streams API
+    // Use Web Streams API with error handling
     const stream = new ReadableStream({
       async start(controller) {
         try {
+          let hasError = false
+          const timeoutId = setTimeout(() => {
+            hasError = true
+            controller.error(new Error('Stream timeout'))
+          }, 240000) // 4 minute safety timeout
+
           for await (const chunk of completion) {
+            if (hasError) break
             const content = chunk.choices[0]?.delta?.content || ''
-            // Send each character individually
             if (content) {
               for (const char of content) {
                 controller.enqueue(`data: ${JSON.stringify({ content: char })}\n\n`)
               }
             }
           }
-          // Send an end marker
+
+          clearTimeout(timeoutId)
           controller.enqueue(`data: ${JSON.stringify({ done: true })}\n\n`)
           controller.close()
         } catch (error) {
+          console.error('Stream error:', error)
           controller.error(error)
         }
       },
     })
 
+    // Set appropriate headers for streaming
     return new Response(stream, {
       headers: {
         'Content-Type': 'text/event-stream',
-        'Cache-Control': 'no-cache',
+        'Cache-Control': 'no-cache, no-transform',
         'Connection': 'keep-alive',
+        'X-Accel-Buffering': 'no', // Disable buffering
       },
     })
 
