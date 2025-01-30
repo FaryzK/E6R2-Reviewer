@@ -161,11 +161,11 @@ export default function FileUpload({ setAnalysis, setLoading, isProcessing }: Fi
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-gray-400">Want to try it out?</span>
                   <a 
-                    href="/Sample E6R2 Application.pdf" 
+                    href="/Sample Clinical Trial Application.pdf" 
                     download
                     className="text-blue-400 hover:text-blue-300 underline flex items-center gap-1"
                   >
-                    Download sample E6R2 application
+                    Download sample clinical trial application
                     <svg 
                       className="w-4 h-4" 
                       fill="none" 
